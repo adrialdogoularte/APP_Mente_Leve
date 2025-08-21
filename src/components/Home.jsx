@@ -13,12 +13,10 @@ const Home = () => {
         {/* Hero Section */}
         <div className="text-center mb-16">
           <div className="flex justify-center mb-6">
-            <div className="bg-gradient-to-r from-blue-500 to-teal-500 p-4 rounded-full">
-              <Heart className="h-12 w-12 text-white" fill="currentColor" />
-            </div>
+            <img src="/logo.png" alt="Mente Leve Logo" className="h-30 w-30 rounded-full shadow-lg" />        
           </div>
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            Bem-vindo ao <span className="text-blue-600">Ueb</span>
+            Bem-vindo ao <span className="text-blue-600">Mente Leve</span>
           </h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-8">
             Sua plataforma de apoio à saúde mental. Desenvolvida especialmente para jovens universitários que 

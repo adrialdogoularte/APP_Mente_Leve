@@ -26,8 +26,8 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <Link to="/" className="flex items-center space-x-1">
-              <Heart className="h-6 w-6 text-blue-500" fill="currentColor" />
-              <span className="text-xl font-semibold text-gray-900">Ueb</span>
+              <img src="/logo.png" alt="Mente Leve Logo" className="h-6 w-6 rounded-full shadow-lg" />  
+              <span className="text-xl font-semibold text-gray-900">Mente Leve</span>
             </Link>
           </div>
 

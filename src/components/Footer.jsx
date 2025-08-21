@@ -9,8 +9,8 @@ const Footer = () => {
           {/* Logo e Descrição */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <Heart className="h-6 w-6 text-blue-500" fill="currentColor" />
-              <span className="text-xl font-semibold text-gray-900">Ueb</span>
+              <img src="/logo.png" alt="Mente Leve Logo" className="h-6 w-6 rounded-full shadow-lg" />  
+              <span className="text-xl font-semibold text-gray-900">Mente Leve</span>
             </div>
             <p className="text-sm text-gray-600 max-w-xs">
               Plataforma dedicada ao bem-estar mental de jovens universitários. 
@@ -24,21 +24,21 @@ const Footer = () => {
             <h3 className="text-sm font-semibold text-gray-900">Links Úteis</h3>
             <div className="space-y-2">
               <a 
-                href="#" 
+                href="https://cvv.org.br/" target="_blank" rel="noopener noreferrer"
                 className="flex items-center text-sm text-gray-600 hover:text-blue-600 transition-colors"
               >
                 <ExternalLink className="h-4 w-4 mr-2" />
                 Centro de Valorização da Vida (CVV)
               </a>
               <a 
-                href="#" 
+                href="https://www.gov.br/saude/pt-br/composicao/saes/desmad/raps/caps" target="_blank" rel="noopener noreferrer"
                 className="flex items-center text-sm text-gray-600 hover:text-blue-600 transition-colors"
               >
                 <ExternalLink className="h-4 w-4 mr-2" />
                 CAPS - Centro de Atenção Psicossocial
               </a>
               <a 
-                href="#" 
+                href="https://www.gov.br/saude/pt-br/assuntos/saude-mental" target="_blank" rel="noopener noreferrer"
                 className="flex items-center text-sm text-gray-600 hover:text-blue-600 transition-colors"
               >
                 <ExternalLink className="h-4 w-4 mr-2" />
@@ -53,15 +53,16 @@ const Footer = () => {
             <div className="space-y-2">
               <div className="flex items-center text-sm text-gray-600">
                 <Phone className="h-4 w-4 mr-2 text-red-500" />
-                CVV: 188 (24h gratuito)
+                <a href="tel:188">CVV LIGUE: 188 (24h gratuito)</a>
               </div>
               <div className="flex items-center text-sm text-gray-600">
                 <Phone className="h-4 w-4 mr-2 text-red-500" />
-                SAMU: 192
+                <a href="tel:192">SAMU LIGUE: 192</a>
+                
               </div>
               <div className="flex items-center text-sm text-gray-600">
                 <Mail className="h-4 w-4 mr-2 text-blue-500" />
-                contato@ueb.com.br
+                <a href="mailto:contato@menteleve.com.br">contato@menteleve.com.br</a>
               </div>
             </div>
             
@@ -82,7 +83,7 @@ const Footer = () => {
         <div className="mt-8 pt-8 border-t border-gray-200">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-2 md:space-y-0">
             <p className="text-xs text-gray-500">
-              © 2024 Ueb - Plataforma de Saúde Mental. Desenvolvido com{' '}
+              © 2025 Mente Leve - Plataforma de Saúde Mental. Desenvolvido com{' '}
               <Heart className="inline h-3 w-3 text-red-500" fill="currentColor" />{' '}
               para universitários.
             </p>
